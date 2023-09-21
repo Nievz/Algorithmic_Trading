@@ -30,16 +30,13 @@
 
   We tune, and adjust, the model’s input features to find the parameters that result in the best trading outcomes. We also choose the best by comparing the cumulative products of the strategy returns.
 
-## Cumulative Return Plot that Shows the ActualRreturns vs. the Strategy Returns:
-  * Description of Model 1 Layers, Output Shape, and Pram #'s.
+## Cumulative Return Plot that Shows the Actual Rreturns vs. the Strategy Returns:
 
 <img src="https://github.com/Nievz/Algorithmic_Trading/blob/main/Images/cumulative%20return%20plot.png" alt="Logo" width="1000" height="600">
 
 ## Best-Case/Worst-Case Performance:
-  * Description of Model 2 Layers, Output Shape, and Pram #'s.
  
 <img src="https://github.com/Nievz/Algorithmic_Trading/blob/main/Images/Best-Case_Worst-Case%20Performance.png" alt="Logo" width="1000" height="600">
-
 
 ## Backtest Predictions:
 
@@ -49,14 +46,9 @@
  
 <img src="https://github.com/Nievz/Algorithmic_Trading/blob/main/Images/backtest_predictions.png" alt="Logo" width="1000" height="600">
 
-  ### Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?.
-
-
-  ### What impact resulted from increasing or decreasing the training window?
-
-    
-  ### What impact resulted from increasing or decreasing either or both of the SMA windows?
-
+  ### Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?. What impact resulted from increasing or decreasing the        training window? What impact resulted from increasing or decreasing either or both of the SMA windows?
+  
+The graphics in our analysis show that in the cumulative return plot, the actual return and strategy returns do follow a similar trend. This is demonstrated in the cumulative return plot. Between the years 2019 and 2021, the return on the strategy does, in fact, outperform the actual returns in both the "buy" and "sell" conditions. After that, we back-tested the new model to evaluate its performance, and the data shows that the strategy returns outperform actual return from 2019 through mid-2020. However, the strategy returns changes trends to a losing strategy when compared to the actual returns in 2021. When the strategy is reversed, the asset would be put up for sale at a loss while the actuals continued to rise.
 
 <!-- LICENSE -->
 ## License
@@ -66,8 +58,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [https://scikit-learn.org/stable/search.html?q=get_feature_names]()
-* [https://www.flaticon.com/free-icon/money_10217592?term=venture+capital&page=1&position=30&origin=search&related_id=10217592]()
-* [https://www.pexels.com/photo/cutout-paper-composition-with-graphic-and-hand-with-bills-5849592/]()
+* [https://scikit-learn.org/0.21/documentation.html]()
+* [https://www.youtube.com/watch?v=pqNCD_5r0IU]()
+* [https://hvplot.holoviz.org/]()
+* [https://hvplot.holoviz.org/]()
+* [https://www.pexels.com/photo]()
 * [https://www.flaticon.com/free-icon/deep-learning_8637101?related_id=8637101]()
 

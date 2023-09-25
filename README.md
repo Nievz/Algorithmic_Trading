@@ -29,6 +29,12 @@
 ## Results
 
   We tune, and adjust, the model’s input features to find the parameters that result in the best trading outcomes. We also choose the best by comparing the cumulative products of the strategy returns.
+  
+## Tuning the trading algorithm by adjusting the SMA input features:
+
+<img src="https://github.com/Nievz/Algorithmic_Trading/blob/main/Images/Strategy returns.png" alt="Logo" width="1000" height="600">
+
+<img src="https://github.com/Nievz/Algorithmic_Trading/blob/main/Images/strategy return performance.png" alt="Logo" width="1000" height="600">
 
 ## Cumulative Return Plot that Shows the Actual Rreturns vs. the Strategy Returns:
 
